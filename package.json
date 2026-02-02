@@ -1,0 +1,25 @@
+{
+    "name": "jwks-server",
+    "version": "1.0.0",
+    "description": "RESTful JWKS server with JWT authentication and key expiry management",
+    "main": "jwks-server.js",
+    "scripts": {
+      "start": "node jwks-server.js",
+      "test": "node test-client.js",
+      "dev": "node jwks-server.js"
+    },
+    "keywords": [
+      "jwks",
+      "jwt",
+      "authentication",
+      "rsa",
+      "json-web-token",
+      "json-web-key-set",
+      "rest-api"
+    ],
+    "author": "",
+    "license": "MIT",
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
